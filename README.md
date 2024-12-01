@@ -27,7 +27,7 @@
 ### _Смена текстового редактора гита:_
 **git config --global core.editor '/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -w'**
 
-##### _[Примеры текстовых редакторов:](https://docs.github.com/en/github/gettings-started-with-github/associating-text-editors-with-git)_
+##### _[Примеры текстовых редакторов](https://docs.github.com/ru/enterprise-server@3.10/get-started/getting-started-with-git/associating-text-editors-with-git)_
 
 ### _Алиасы для команд_
 **git config --global alias.СВОЙ_АЛИАС "первоначальная команда"**
