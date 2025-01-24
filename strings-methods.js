@@ -21,10 +21,10 @@ function cutString(string, symbolsCount) {
 
         if (stringForTrimBySymbol) {
             let trimBySymbolString = stringForTrimBySymbol[0];  //если в строке есть часть, отвечающая регулярке, и был создан массив с помощью match, в 0 элементе - все остальное после этой части (от конца до начала)
-            return trimBySymbolString.split('').reverse().join('');  //перевернуть готовую строку обратно
+            return (trimBySymbolString.split('').reverse().join('') + '...');  //перевернуть готовую строку обратно
 
         } else {  //если в строке нечего обрезать по регулярке
-            return reversedString.split('').reverse().join('');  //вернуть строку, просто изначально обрезанную, без второго обрезания (только повернутую в правильной последовательности)
+            return (reversedString.split('').reverse().join('') + '...');  //вернуть строку, просто изначально обрезанную, без второго обрезания (только повернутую в правильной последовательности)
         }
 
     } else {  //если строка короткая и не надо резать
